@@ -4,19 +4,27 @@
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@config-plugins/react-native-ble-plx": "^7.0.0",
+    "buffer": "npm:Buffer@^0.0.0",
+    "Buffer": "^0.0.0",
     "expo": "~52.0.38",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
-    "react-native": "0.76.7"
+    "react-native": "0.76.7",
+    "react-native-base64": "^0.2.1",
+    "react-native-ble-plx": "^3.5.0",
+    "react-native-permissions": "^5.2.6",
+    "react-native-quick-base64": "^2.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
+    "@types/react-native-base64": "^0.2.2",
     "typescript": "^5.3.3"
   },
   "private": true
